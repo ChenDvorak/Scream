@@ -27,6 +27,11 @@ class HomePage extends StatelessWidget {
           child: Text('呐喊')
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        tooltip: 'Increment',
+        child: Icon(Icons.add),
+      ),
     );
   }
 }
